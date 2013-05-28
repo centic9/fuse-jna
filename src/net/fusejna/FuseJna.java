@@ -9,7 +9,12 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
+import net.fusejna.exception.FuseException;
+import net.fusejna.exception.InvalidPermissionsMountpointException;
+import net.fusejna.exception.NotADirectoryMountpointException;
+import net.fusejna.struct.StructFuseContext;
 import net.fusejna.types.TypeSize;
+import net.fusejna.util.ProcessGobbler;
 
 public final class FuseJna
 {

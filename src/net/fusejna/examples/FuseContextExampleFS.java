@@ -2,8 +2,8 @@ package net.fusejna.examples;
 
 import java.nio.ByteBuffer;
 
-import net.fusejna.FuseException;
-import net.fusejna.StructFuseFileInfo.FileInfoWrapper;
+import net.fusejna.exception.FuseException;
+import net.fusejna.struct.StructFuseFileInfo.FileInfoWrapper;
 
 public final class FuseContextExampleFS
 {

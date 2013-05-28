@@ -3,11 +3,11 @@ package net.fusejna.util;
 import java.nio.ByteBuffer;
 
 import net.fusejna.FlockCommand;
-import net.fusejna.StructFlock.FlockWrapper;
-import net.fusejna.StructFuseFileInfo.FileInfoWrapper;
-import net.fusejna.StructStat.StatWrapper;
-import net.fusejna.StructTimeBuffer.TimeBufferWrapper;
 import net.fusejna.XattrListFiller;
+import net.fusejna.struct.StructFlock.FlockWrapper;
+import net.fusejna.struct.StructFuseFileInfo.FileInfoWrapper;
+import net.fusejna.struct.StructStat.StatWrapper;
+import net.fusejna.struct.StructTimeBuffer.TimeBufferWrapper;
 import net.fusejna.types.TypeMode.ModeWrapper;
 
 /**

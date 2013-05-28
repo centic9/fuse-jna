@@ -1,5 +1,6 @@
 package net.fusejna;
 
+import net.fusejna.struct.StructFuseContext;
 import net.fusejna.types.TypeSize;
 
 import com.sun.jna.Library;

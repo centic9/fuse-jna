@@ -7,12 +7,12 @@ import net.fusejna.DirectoryFiller;
 import net.fusejna.ErrorCodes;
 import net.fusejna.FlockCommand;
 import net.fusejna.FuseFilesystem;
-import net.fusejna.StructFlock.FlockWrapper;
-import net.fusejna.StructFuseFileInfo.FileInfoWrapper;
-import net.fusejna.StructStat.StatWrapper;
-import net.fusejna.StructStatvfs.StatvfsWrapper;
-import net.fusejna.StructTimeBuffer.TimeBufferWrapper;
 import net.fusejna.XattrListFiller;
+import net.fusejna.struct.StructFlock.FlockWrapper;
+import net.fusejna.struct.StructFuseFileInfo.FileInfoWrapper;
+import net.fusejna.struct.StructStat.StatWrapper;
+import net.fusejna.struct.StructStatvfs.StatvfsWrapper;
+import net.fusejna.struct.StructTimeBuffer.TimeBufferWrapper;
 import net.fusejna.types.TypeMode.ModeWrapper;
 
 /**

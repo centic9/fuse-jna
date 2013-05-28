@@ -1,5 +1,19 @@
 package net.fusejna;
 
+import net.fusejna.struct.StructFlock;
+import net.fusejna.struct.StructFuseConnInfo;
+import net.fusejna.struct.StructFuseFileInfo;
+import net.fusejna.struct.StructStat;
+import net.fusejna.struct.StructStatvfs;
+import net.fusejna.struct.StructTimeBuffer;
+import net.fusejna.struct.StructFlock.FreeBSD;
+import net.fusejna.struct.StructFlock.NotFreeBSD;
+import net.fusejna.struct.StructStat.BSD;
+import net.fusejna.struct.StructStat.I686;
+import net.fusejna.struct.StructStat.Mac;
+import net.fusejna.struct.StructStat.PowerPC;
+import net.fusejna.struct.StructStat.X86_64;
+import net.fusejna.struct.StructStatvfs.FreeBSD.ByReference;
 import net.fusejna.types.TypeDev;
 import net.fusejna.types.TypeGid;
 import net.fusejna.types.TypeMode;

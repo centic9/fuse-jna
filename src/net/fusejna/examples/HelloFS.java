@@ -5,9 +5,9 @@ import java.nio.ByteBuffer;
 
 import net.fusejna.DirectoryFiller;
 import net.fusejna.ErrorCodes;
-import net.fusejna.FuseException;
-import net.fusejna.StructFuseFileInfo.FileInfoWrapper;
-import net.fusejna.StructStat.StatWrapper;
+import net.fusejna.exception.FuseException;
+import net.fusejna.struct.StructFuseFileInfo.FileInfoWrapper;
+import net.fusejna.struct.StructStat.StatWrapper;
 import net.fusejna.types.TypeMode.NodeType;
 import net.fusejna.util.FuseFilesystemAdapterFull;
 
