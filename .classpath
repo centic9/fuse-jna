@@ -4,5 +4,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="output" path="bin"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-	<classpathentry sourcepath="/home/dstadler/.gradle/caches/artifacts-24/filestore/net.java.dev.jna/jna/3.5.2/source/58843855a12b0ba9ed1efffb85dfbcd052930ad9/jna-3.5.2-sources.jar" kind="lib" path="/home/dstadler/.gradle/caches/artifacts-24/filestore/net.java.dev.jna/jna/3.5.2/jar/f1bf9fe267e17c1a8f7d1aa2c985e7fe81a06da6/jna-3.5.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/dstadler/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.5.2/58843855a12b0ba9ed1efffb85dfbcd052930ad9/jna-3.5.2-sources.jar" kind="lib" path="/home/dstadler/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.5.2/f1bf9fe267e17c1a8f7d1aa2c985e7fe81a06da6/jna-3.5.2.jar" exported="true"/>
 </classpath>
