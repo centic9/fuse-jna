@@ -4,8 +4,8 @@ final class AutoUnmountHook extends Thread
 {
 	private FuseFilesystem filesystem = null;
 
-	AutoUnmountHook(final FuseFilesystem filesystem)
-	{
+	AutoUnmountHook(final FuseFilesystem filesystem) {
+		super("AutoUnmountHook" + filesystem.getName());
 		this.filesystem = filesystem;
 	}
 
