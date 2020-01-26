@@ -222,7 +222,7 @@ public final class FuseJna
 	 * for unmounting the FuseFilesystem (or let the shutdown hook take care unmounting during shutdown of the application).
 	 * This method is available for special cases, e.g. where mountpoints were left over from previous invocations and need to
 	 * be unmounted before the filesystem can be mounted again.
-	 * 
+	 *
 	 * @param mountPoint
 	 *            The location where the filesystem is mounted.
 	 * @return The exit code from running `fusermount` or `umount`, 0 indicates success. You can change the location of these

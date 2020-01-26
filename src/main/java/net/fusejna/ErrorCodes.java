@@ -2077,7 +2077,7 @@ public final class ErrorCodes
 
 	/**
 	 * Advertise error
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EADV()
@@ -2111,7 +2111,7 @@ public final class ErrorCodes
 
 	/**
 	 * Authentication error
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EAUTH()
@@ -2121,7 +2121,7 @@ public final class ErrorCodes
 
 	/**
 	 * Invalid exchange
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EBADE()
@@ -2139,7 +2139,7 @@ public final class ErrorCodes
 
 	/**
 	 * File descriptor in bad state
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EBADFD()
@@ -2157,7 +2157,7 @@ public final class ErrorCodes
 
 	/**
 	 * Invalid request descriptor
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EBADR()
@@ -2167,7 +2167,7 @@ public final class ErrorCodes
 
 	/**
 	 * RPC struct is bad
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EBADRPC()
@@ -2177,7 +2177,7 @@ public final class ErrorCodes
 
 	/**
 	 * Invalid request code
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EBADRQC()
@@ -2187,7 +2187,7 @@ public final class ErrorCodes
 
 	/**
 	 * Invalid slot
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EBADSLT()
@@ -2197,7 +2197,7 @@ public final class ErrorCodes
 
 	/**
 	 * Bad font file format
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EBFONT()
@@ -2231,7 +2231,7 @@ public final class ErrorCodes
 
 	/**
 	 * Channel number out of range
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ECHRNG()
@@ -2241,7 +2241,7 @@ public final class ErrorCodes
 
 	/**
 	 * Communication error on send
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ECOMM()
@@ -2283,7 +2283,7 @@ public final class ErrorCodes
 
 	/**
 	 * Resource deadlock avoided
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EDEADLOCK()
@@ -2309,7 +2309,7 @@ public final class ErrorCodes
 
 	/**
 	 * Programming error
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EDOOFUS()
@@ -2319,7 +2319,7 @@ public final class ErrorCodes
 
 	/**
 	 * RFS specific error
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EDOTDOT()
@@ -2361,7 +2361,7 @@ public final class ErrorCodes
 
 	/**
 	 * Inappropriate file type or format
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EFTYPE()
@@ -2451,7 +2451,7 @@ public final class ErrorCodes
 
 	/**
 	 * Is a named type file
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EISNAM()
@@ -2461,7 +2461,7 @@ public final class ErrorCodes
 
 	/**
 	 * Key has expired
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EKEYEXPIRED()
@@ -2471,7 +2471,7 @@ public final class ErrorCodes
 
 	/**
 	 * Key was rejected by service
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EKEYREJECTED()
@@ -2481,7 +2481,7 @@ public final class ErrorCodes
 
 	/**
 	 * Key has been revoked
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EKEYREVOKED()
@@ -2491,7 +2491,7 @@ public final class ErrorCodes
 
 	/**
 	 * Level 2 halted
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EL2HLT()
@@ -2501,7 +2501,7 @@ public final class ErrorCodes
 
 	/**
 	 * Level 2 not synchronized
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EL2NSYNC()
@@ -2511,7 +2511,7 @@ public final class ErrorCodes
 
 	/**
 	 * Level 3 halted
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EL3HLT()
@@ -2521,7 +2521,7 @@ public final class ErrorCodes
 
 	/**
 	 * Level 3 reset
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EL3RST()
@@ -2531,7 +2531,7 @@ public final class ErrorCodes
 
 	/**
 	 * Must be equal largest errno
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer ELAST()
@@ -2541,7 +2541,7 @@ public final class ErrorCodes
 
 	/**
 	 * Can not access a needed shared library
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ELIBACC()
@@ -2551,7 +2551,7 @@ public final class ErrorCodes
 
 	/**
 	 * Accessing a corrupted shared library
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ELIBBAD()
@@ -2561,7 +2561,7 @@ public final class ErrorCodes
 
 	/**
 	 * Cannot exec a shared library directly
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ELIBEXEC()
@@ -2571,7 +2571,7 @@ public final class ErrorCodes
 
 	/**
 	 * Attempting to link in too many shared libraries
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ELIBMAX()
@@ -2581,7 +2581,7 @@ public final class ErrorCodes
 
 	/**
 	 * .lib section in a.out corrupted
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ELIBSCN()
@@ -2591,7 +2591,7 @@ public final class ErrorCodes
 
 	/**
 	 * Link number out of range
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ELNRNG()
@@ -2609,7 +2609,7 @@ public final class ErrorCodes
 
 	/**
 	 * Wrong medium type
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EMEDIUMTYPE()
@@ -2659,7 +2659,7 @@ public final class ErrorCodes
 
 	/**
 	 * No XENIX semaphores available
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENAVAIL()
@@ -2669,7 +2669,7 @@ public final class ErrorCodes
 
 	/**
 	 * Need authenticator
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer ENEEDAUTH()
@@ -2711,7 +2711,7 @@ public final class ErrorCodes
 
 	/**
 	 * No anode
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOANO()
@@ -2721,7 +2721,7 @@ public final class ErrorCodes
 
 	/**
 	 * Attribute not found
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer ENOATTR()
@@ -2739,7 +2739,7 @@ public final class ErrorCodes
 
 	/**
 	 * No CSI structure available
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOCSI()
@@ -2749,7 +2749,7 @@ public final class ErrorCodes
 
 	/**
 	 * No data available
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENODATA()
@@ -2783,7 +2783,7 @@ public final class ErrorCodes
 
 	/**
 	 * Required key not available
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOKEY()
@@ -2809,7 +2809,7 @@ public final class ErrorCodes
 
 	/**
 	 * No medium found
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOMEDIUM()
@@ -2835,7 +2835,7 @@ public final class ErrorCodes
 
 	/**
 	 * Machine is not on the network
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENONET()
@@ -2845,7 +2845,7 @@ public final class ErrorCodes
 
 	/**
 	 * Package not installed
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOPKG()
@@ -2871,7 +2871,7 @@ public final class ErrorCodes
 
 	/**
 	 * Out of streams resources
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOSR()
@@ -2881,7 +2881,7 @@ public final class ErrorCodes
 
 	/**
 	 * Device not a stream
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOSTR()
@@ -2907,7 +2907,7 @@ public final class ErrorCodes
 
 	/**
 	 * Capabilities insufficient
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer ENOTCAPABLE()
@@ -2941,7 +2941,7 @@ public final class ErrorCodes
 
 	/**
 	 * Not a XENIX named type file
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOTNAM()
@@ -2951,7 +2951,7 @@ public final class ErrorCodes
 
 	/**
 	 * State not recoverable
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOTRECOVERABLE()
@@ -2969,7 +2969,7 @@ public final class ErrorCodes
 
 	/**
 	 * Operation not supported
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer ENOTSUP()
@@ -2987,7 +2987,7 @@ public final class ErrorCodes
 
 	/**
 	 * Name not unique on network
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ENOTUNIQ()
@@ -3021,7 +3021,7 @@ public final class ErrorCodes
 
 	/**
 	 * Owner died
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EOWNERDEAD()
@@ -3055,7 +3055,7 @@ public final class ErrorCodes
 
 	/**
 	 * Too many processes
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EPROCLIM()
@@ -3065,7 +3065,7 @@ public final class ErrorCodes
 
 	/**
 	 * Bad procedure for program
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EPROCUNAVAIL()
@@ -3075,7 +3075,7 @@ public final class ErrorCodes
 
 	/**
 	 * Program version wrong
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EPROGMISMATCH()
@@ -3085,7 +3085,7 @@ public final class ErrorCodes
 
 	/**
 	 * RPC prog. not avail
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer EPROGUNAVAIL()
@@ -3127,7 +3127,7 @@ public final class ErrorCodes
 
 	/**
 	 * Remote address changed
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EREMCHG()
@@ -3145,7 +3145,7 @@ public final class ErrorCodes
 
 	/**
 	 * Remote I/O error
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EREMOTEIO()
@@ -3155,7 +3155,7 @@ public final class ErrorCodes
 
 	/**
 	 * Interrupted system call should be restarted
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ERESTART()
@@ -3173,7 +3173,7 @@ public final class ErrorCodes
 
 	/**
 	 * RPC version wrong
-	 * 
+	 *
 	 * @return null on Linux (not defined)
 	 */
 	public static final Integer ERPCMISMATCH()
@@ -3215,7 +3215,7 @@ public final class ErrorCodes
 
 	/**
 	 * Srmount error
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ESRMNT()
@@ -3233,7 +3233,7 @@ public final class ErrorCodes
 
 	/**
 	 * Streams pipe error
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ESTRPIPE()
@@ -3243,7 +3243,7 @@ public final class ErrorCodes
 
 	/**
 	 * Timer expired
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer ETIME()
@@ -3277,7 +3277,7 @@ public final class ErrorCodes
 
 	/**
 	 * Structure needs cleaning
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EUCLEAN()
@@ -3287,7 +3287,7 @@ public final class ErrorCodes
 
 	/**
 	 * Protocol driver not attached
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EUNATCH()
@@ -3321,7 +3321,7 @@ public final class ErrorCodes
 
 	/**
 	 * Exchange full
-	 * 
+	 *
 	 * @return null on BSD (not defined)
 	 */
 	public static final Integer EXFULL()

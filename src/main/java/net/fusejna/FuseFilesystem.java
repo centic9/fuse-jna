@@ -43,7 +43,7 @@ public abstract class FuseFilesystem
 	/**
 	 * Perform destroy-time cleanup. Takes two {@link FuseFilesystem}s arguments which should be equal in most cases, but may
 	 * not in the case of a wrapped filesystem object for logging ({@link LoggedFuseFilesystem}).
-	 * 
+	 *
 	 * @param mountedFilesystem
 	 *            The {@link FuseFilesystem} object that is actually mounted (the one receiving the destroy call)
 	 * @param userFilesystem
@@ -395,7 +395,7 @@ public abstract class FuseFilesystem
 	/**
 	 * Subclasses may override this to customize the default parameters applied to the stat structure, or to prevent such
 	 * behavior in the first place (by overriding this method with an empty one).
-	 * 
+	 *
 	 * @param wrapper
 	 *            The StatWrapper object to write to.
 	 * @param uid
@@ -432,7 +432,7 @@ public abstract class FuseFilesystem
 
 	/**
 	 * Returns the raw fuse_context structure. Only valid when called while a filesystem operation is taking place.
-	 * 
+	 *
 	 * @return The fuse_context structure by reference.
 	 */
 	protected final StructFuseContext getFuseContext()
@@ -445,7 +445,7 @@ public abstract class FuseFilesystem
 
 	/**
 	 * Returns the gid field of the fuse context. Only valid when called while a filesystem operation is taking place.
-	 * 
+	 *
 	 * @return The group ID of the process executing an operation on this filesystem.
 	 */
 	protected TypeGid getFuseContextGid()
@@ -455,7 +455,7 @@ public abstract class FuseFilesystem
 
 	/**
 	 * Returns the pid field of the fuse context. Only valid when called while a filesystem operation is taking place.
-	 * 
+	 *
 	 * @return The process ID of the process executing an operation on this filesystem.
 	 */
 	protected TypePid getFuseContextPid()
@@ -465,7 +465,7 @@ public abstract class FuseFilesystem
 
 	/**
 	 * Returns the uid field of the fuse context. Only valid when called while a filesystem operation is taking place.
-	 * 
+	 *
 	 * @return The user ID of the user running the process executing an operation of this filesystem.
 	 */
 	protected TypeUid getFuseContextUid()
