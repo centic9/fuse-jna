@@ -9,3 +9,4 @@ bin
 *.iws
 *.iml
 build
+.idea/
