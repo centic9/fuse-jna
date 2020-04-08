@@ -5,7 +5,6 @@ bin
 *.class
 *~
 .gradle
-gradle
 *.ipr
 *.iws
 *.iml
