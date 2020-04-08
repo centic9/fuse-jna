@@ -238,7 +238,7 @@ public final class FuseJna
 	 * @throws IOException
 	 *             thrown if an error occurs while starting the external process.
 	 */
-	public static int unmount(final File mountPoint) throws IOException
+	public static int unmount(final File mountPoint) throws IOException, FuseException
 	{
 		ProcessGobbler process;
 		try {
@@ -247,16 +247,33 @@ public final class FuseJna
 		catch (final IOException e) {
 			process = new ProcessGobbler(FuseJna.umount, mountPoint.toString());
 		}
-		return process.getReturnCode();
+
+		int result = process.getReturnCode();
+		if (result != 0) {
+			String stdout = process.getStdout();
+			String stderr = process.getStderr();
+			StringBuilder msg = new StringBuilder();
+
+			if(stdout != null && stdout.length() > 0) {
+				msg.append(stdout);
+			}
+			if(stderr != null && stderr.length() > 0) {
+				if(msg.length() > 0) {
+					msg.append('\n');
+				}
+				msg.append(stderr);
+			}
+
+			throw new FuseException(result, msg.toString());
+		}
+
+		return result;
 	}
 
 	static void unmount(final FuseFilesystem fuseFilesystem) throws IOException, FuseException
 	{
 		final File mountPoint = fuseFilesystem.getMountPoint();
-		final int result = unmount(mountPoint);
-		if (result != 0) {
-			throw new FuseException(result);
-		}
+		unmount(mountPoint);
 	}
 
 	private static final void unregisterFilesystemName(final File mountPoint)

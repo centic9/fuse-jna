@@ -8,4 +8,9 @@ public final class FuseException extends Exception
 	{
 		super("fuse returned error code " + returnCode);
 	}
+
+	FuseException(final int returnCode, String msg)
+	{
+		super("fuse returned error code " + returnCode + ": \n" + msg);
+	}
 }
