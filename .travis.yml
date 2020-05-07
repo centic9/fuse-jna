@@ -1,5 +1,17 @@
+dist: bionic
 language: java
-notifications:
-        email:
-                on_success: false
-                on_failure: always
+jdk:
+        - openjdk8
+        - openjdk11
+
+before_install:
+        - chmod +x gradlew gradle/wrapper/gradle-wrapper.jar
+
+install:
+        - gradle wrapper
+        - ./gradlew compileJava
+
+script: ./gradlew check
+
+after_failure:
+        - cat build/test-results/test/*.xml
